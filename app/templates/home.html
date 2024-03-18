@@ -1,0 +1,58 @@
+
+{% extends "base.html" %}
+{%load static%}
+{% block content %}
+
+<img src="{% static 'images/lovely_photo.svg' %}" class="img-fluid homePhoto" alt="Responsive image">
+
+<div class='sideways infoBoxWide2 pushArmRight' id='sideways2'>
+    <div class='upRight'>
+        <h2 class='noWrap'>We've Helped</h2>
+        <hr>
+        <div class='sideways'>
+            <h1 id='numElement' class='numElementCustom'>0</h1>
+            <h1>Million</h1>
+        </div>
+        <hr>
+        <h2 class='noWrap'>People get clean energy!</h2>
+    </div>
+    <br>
+    <div class='mission'>
+        <p>At Sunset Solar Solutions, we're personally dedicated to lighting up lives in underserved communities through solar empowerment. Join us on the journey to a brighter, more sustainable future.</p>
+    </div>
+</div>
+
+<div class='sideways infoBoxWide2 pushArmLeft' id='sideways1'>
+    <div class='upRight'>
+        <h2 class='noWrap'>Working to cover</h2>
+        <hr>
+        <div class='sideways'>
+            <h1 id='numElement2' class='numElementCustom'>0</h1>
+            <h1>Million</h1>
+        </div>
+        <hr>
+        <h2 class='noWrap'>acres of land.</h2>
+    </div>
+
+    <br>
+
+    <p class='mission'>To power the whole United States only takes 101 miles of flat solar panels. Thats only a fraction of a state even as small as Rhodes. If you're looking to opt for a cleaner, more affordable energy solution, consider Sunset Solar's advanced tandem solar cells. Embrace sustainability and cost-effectiveness in one smart purchase. Make the switch to a greener future today.</p>
+
+</div>
+
+
+{% endblock content %}
+
+
+
+
+
+{% comment %} 
+!!!!!!!!!!!!!!!!!__Page to do__!!!!!!!!!!!!!!!!!
+    -Fix 'arm bars' mobile sizing (likely font??)
+    -add more infomational content (style with bs5)
+    -add at least one more picture
+    -
+    -
+!!!!!!!!!!!!!!!!!__Page to do__!!!!!!!!!!!!!!!!!
+{% endcomment %}
