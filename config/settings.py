@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-gsja0f#9h+*2nf+(i!-8i_ryh6-l(tv)k0%ulqh2*$dw2c(3-0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "https://sunset-solar-solutions-625ed835b47c.herokuapp.com/"
+]
 
 
 # Application definition
